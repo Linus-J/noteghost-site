@@ -124,6 +124,18 @@ main {
   padding: 4rem 0 8rem;
 }
 
+.legal-link {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  color: var(--muted);
+  padding-bottom: 2rem;
+}
+
+.legal-page {
+  padding: 2rem 0 6rem;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
